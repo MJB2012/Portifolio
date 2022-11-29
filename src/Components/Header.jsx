@@ -15,8 +15,8 @@ export function Header() {
 
       {/* menu */}
 
-      <div className="hidden md:flex font-semibold font-robotoC">
-        <ul className="hidden md:flex font-robotoC ">
+      <div className="hidden md:flex">
+        <ul className="hidden md:flex  font-semibold">
           <li>Home</li>
           <li>About</li>
           <li>Experience</li>
