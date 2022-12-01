@@ -24,12 +24,13 @@ export function About() {
                                     
                                 </p>
                             </div>
-                            <div className="h-[4rem]">
+                            <div className="h-[3rem]">
 
                             </div>
                     </div>
                 </div>
             </div>
+            
         
     );
 }
