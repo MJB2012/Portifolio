@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 24rem;
+  height: 32rem;
   
 }
 
@@ -27,3 +27,4 @@
   background-image: linear-gradient(to right, #6b7280, #3f3f46) !important;
   transition-delay: 0.25s;
 }
+
