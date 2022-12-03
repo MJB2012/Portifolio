@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaMailBulk } from "react-icons/f
 import { HiOutlineMail } from "react-icons/hi"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { useState } from "react";
+import { Link } from "react-scroll"
 
 export function Header() {
   const [header, setHeader] = useState(false);
@@ -17,11 +18,32 @@ export function Header() {
 
       <div className="hidden md:flex">
         <ul className="hidden md:flex  font-semibold">
-          <li>Home</li>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Skills</li>
-          <li>Contact</li>
+       <li>
+        <Link to = "home" smooth={true} duration={500} >
+          Home
+        </Link>
+        </li> 
+        <li>
+          <Link to = "about" smooth={true} duration={500} >
+          About
+        </Link>
+        </li>
+        <li>
+          <Link to = "skills" smooth={true} duration={500} >
+          Skills
+        </Link>
+        </li>
+        <li>
+          <Link to = "work" smooth={true} duration={500} >
+          Work
+        </Link>
+        </li>
+        <li>
+          <Link to = "contact" smooth={true} duration={500} >
+          Contact
+        </Link>
+        </li>
+        
         </ul>
       </div>
 
@@ -31,11 +53,31 @@ export function Header() {
       </div>
       {/* mobile menu */}
       <ul className={!header ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center" }>
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Experience</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleOnClick} to = "home" smooth={true} duration={500} >
+          Home
+        </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleOnClick} to = "about" smooth={true} duration={500} >
+          About
+        </Link>
+          </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleOnClick} to = "skills" smooth={true} duration={500} >
+          Skills
+        </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleOnClick} to = "work" smooth={true} duration={500} >
+          Work
+        </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleOnClick} to = "contact" smooth={true} duration={500} >
+          Contact
+        </Link>
+          </li>
       </ul>
 
       {/* Social icons */}
@@ -49,13 +91,13 @@ export function Header() {
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-gray-700 ">
             <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="/">
+            href="https://github.com/MJB2012">
               Github <FaGithub size={32}/>
             </a>
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-slate-400 ">
             <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="/">
+            href="mailto: matheusjbarbosa23@gmail.com">
               Email <HiOutlineMail size={32}/>
             </a>
           </li>

@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 32rem;
+  height: 18rem;
   
 }
 
@@ -28,3 +28,18 @@
   transition-delay: 0.25s;
 }
 
+
+.content-div1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    
+  }
+  
+  .content-div1:hover {
+    background-image: linear-gradient(to right, #6b7280, #3f3f46) !important;
+    transition-delay: 0.25s;
+  }
+  
+  
