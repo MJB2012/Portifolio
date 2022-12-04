@@ -85,7 +85,7 @@ export function Header() {
         <ul>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-blue-600 ">
             <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="/">
+            href="https://www.linkedin.com/in/mjb2012/">
               Linkedin <FaLinkedin size={32}/>
             </a>
           </li>
@@ -103,7 +103,7 @@ export function Header() {
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-slate-500 ">
             <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="/">
+            href="https://www.linkedin.com/posts/mjb2012_my-resume-activity-7005206604379795456-BdL8?utm_source=share&utm_medium=member_desktop">
               Resume <BsFillPersonLinesFill size={32}/>
             </a>
           </li>
