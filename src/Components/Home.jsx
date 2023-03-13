@@ -5,11 +5,11 @@ export function Home() {
   return (
     <div name="home" className="bg-black w-full h-screen">
       <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-white text-2xl mt-5">Hello ! My name is</p>
-        <h1 className="text-4xl sm:text-5xl text-white font-semibold mt-8">
+        <p className="text-white text-xl mt-12">Hello ! My name is</p>
+        <h1 className="text-4xl sm:text-4xl text-white font-semibold mt-8">
           Matheus João Barbosa
         </h1>
-        <h2 className="text-white text-6xl font-bold">
+        <h2 className="text-white text-5xl font-bold">
           I'm a Front-End Developer
         </h2>
         <p className="text-white text-2xl font-light my-1 py-4 max-w-[700px]">

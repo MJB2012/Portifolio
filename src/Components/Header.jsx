@@ -9,9 +9,9 @@ export function Header() {
   const [header, setHeader] = useState(false);
   const handleOnClick = () => setHeader(!header);
   return (
-    <div className="fixed w-full h-[5rem] flex justify-between items-center px-4 bg-black text-gray-300">
+    <div className="fixed w-full h-[3.5rem] flex justify-between items-center px-4 bg-black text-gray-300">
       <div>
-        <img src={Logo} alt="logo" style={{ width: "6.5rem" }} />
+        <img src={Logo} alt="logo" style={{ width: "4.5rem" }} />
       </div>
 
       {/* menu */}
