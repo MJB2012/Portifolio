@@ -41,7 +41,7 @@ export function Contact() {
             </div>
           </a>
           <a href="https://github.com/MJB2012">
-            <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500" target="_blank">
               <img className="w-[6rem] mx-auto" src={Github} alt="github icon" />
               <p className="text-white my-4"> Github</p>
             </div>
