@@ -1,18 +1,53 @@
+import LinkedIn from "../assets/linkedIn.png";
+import Mail from "../assets/mail.svg";
+import WhatsApp from "../assets/WhatsApp.svg.webp";
+import Github from "../assets/github.png";
+
 export function Contact() {
-    return(
-        <div name="contact" 
-        className="bg-black w-full h-full flex justify-center items-center p-4 pt-32">
-            <form className="flex flex-col max-w-[62.5rem] w-full" method="POST"
-            action="https://getform.io/f/26c0a506-cd24-4bb8-847d-fa0f638e935d">
-                <div className="pb-8">
-                    <p className="text-4xl text-white font-bold inline border-b-4 border-white">Contact</p>
-                    <p className="text-white py-4">You can contact me through the form bellow or shoot me an email at matheusjbarbosa23@gmail.com</p>
-                </div>
-                <input className="bg-white " type="text" placeholder=" name" name="name" />
-                <input className="my-4 p-2 bg-white" type="email" placeholder="email" name="email" />
-                <textarea className="bg-white p-8" name="message" ></textarea>
-                <button className="text-gray-900 group bg-white border-2 rounded-sm px-4 py-3 my-8 mx-auto flex items-center hover:bg-gray-600 hover:text-white duration-300">Let's get in touch</button>
-            </form>
+  return (
+    <div name="skills" className="w-full h-screen bg-black">
+      <div className="max-w-[62.5rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-white text-white">
+            Contact
+          </p>
+          <p className="py-4 text-white">Let's get in touch !</p>
         </div>
-    );
+
+        <div className="w-full grid grid-cols-2 sm:grid-cols4 gap 4 text-center py-8">
+          <a href="https://www.linkedin.com/in/mjb2012/" target="_blank">
+            <div className="shadow-md  hover:scale-110 duration-500">
+              <img className="w-28 mx-auto" src={LinkedIn} alt="HTML icon" />
+              <p className="text-white my-4">LinkedIn</p>
+            </div>
+          </a>
+          <a href="mailto: matheusjbarbosa23@gmail.com" target="_blank">
+            <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
+              <img className="w-[7rem] mx-auto" src={Mail} alt="email icon" />
+              <p className="text-white my-4">Email</p>
+            </div>
+          </a>
+          <a
+            href="https://web.whatsapp.com/send?phone=5511976361137"
+            target="_blank"
+          >
+            <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
+              <img
+                className="w-[7rem] mx-auto"
+                src={WhatsApp}
+                alt="whatsapp icon"
+              />
+              <p className="text-white my-4">WhatsApp</p>
+            </div>
+          </a>
+          <a href="https://github.com/MJB2012">
+            <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
+              <img className="w-[6rem] mx-auto" src={Github} alt="github icon" />
+              <p className="text-white my-4"> Github</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }

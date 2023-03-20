@@ -1,6 +1,6 @@
 import DTmoney from "../assets/dtmoney1.png";
 import TaskTimer from "../assets/pomodoroTimer.png";
-
+import { FaGithub } from "react-icons/fa";
 export function Work() {
   return (
     <div name="work" className="w-full md:h-screen bg-black text-white pb-25">
@@ -11,8 +11,11 @@ export function Work() {
           </p>
           <p className="py-6">
             Check some of my work on{" "}
-            <a className="font-bold hover:text-2xl" href="/">
-              Github
+            <a
+              className="font-bold hover:text-2xl hover:scale-110 duration-500"
+              href="https://github.com/MJB2012"
+              
+            > Github
             </a>
           </p>
         </div>

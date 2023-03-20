@@ -18,32 +18,31 @@ export function Header() {
 
       <div className="hidden md:flex">
         <ul className="hidden md:flex  font-semibold">
-       <li>
-        <Link to = "home" smooth={true} duration={500} >
-          Home
-        </Link>
-        </li> 
-        <li>
-          <Link to = "about" smooth={true} duration={500} >
-          About
-        </Link>
-        </li>
-        <li>
-          <Link to = "skills" smooth={true} duration={500} >
-          Skills
-        </Link>
-        </li>
-        <li>
-          <Link to = "work" smooth={true} duration={500} >
-          Work
-        </Link>
-        </li>
-        <li>
-          <Link to = "contact" smooth={true} duration={500} >
-          Contact
-        </Link>
-        </li>
-        
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="work" smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -52,59 +51,83 @@ export function Header() {
         {!header ? <FaBars /> : <FaTimes />}
       </div>
       {/* mobile menu */}
-      <ul className={!header ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center" }>
+      <ul
+        className={
+          !header
+            ? "hidden"
+            : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center"
+        }
+      >
         <li className="py-6 text-4xl">
-          <Link onClick={handleOnClick} to = "home" smooth={true} duration={500} >
-          Home
-        </Link>
+          <Link onClick={handleOnClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleOnClick} to = "about" smooth={true} duration={500} >
-          About
-        </Link>
-          </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleOnClick} to = "skills" smooth={true} duration={500} >
-          Skills
-        </Link>
+          <Link onClick={handleOnClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleOnClick} to = "work" smooth={true} duration={500} >
-          Work
-        </Link>
+          <Link
+            onClick={handleOnClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleOnClick} to = "contact" smooth={true} duration={500} >
-          Contact
-        </Link>
-          </li>
+          <Link onClick={handleOnClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleOnClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-blue-600 ">
-            <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="https://www.linkedin.com/in/mjb2012/">
-              Linkedin <FaLinkedin size={32}/>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC"
+              href="https://www.linkedin.com/in/mjb2012/"
+            >
+              Linkedin <FaLinkedin size={32} />
             </a>
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-gray-700 ">
-            <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="https://github.com/MJB2012">
-              Github <FaGithub size={32}/>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC"
+              href="https://github.com/MJB2012"
+            >
+              Github <FaGithub size={32} />
             </a>
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-slate-400 ">
-            <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="mailto: matheusjbarbosa23@gmail.com">
-              Email <HiOutlineMail size={32}/>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC"
+              href="mailto: matheusjbarbosa23@gmail.com"
+            >
+              Email <HiOutlineMail size={32} />
             </a>
           </li>
           <li className="w-[10rem] h[3.75rem] flex justify-between items-center ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 bg-slate-500 ">
-            <a className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC" 
-            href="https://www.linkedin.com/posts/mjb2012_my-resume-activity-7005206604379795456-BdL8?utm_source=share&utm_medium=member_desktop">
-              Resume <BsFillPersonLinesFill size={32}/>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 my-2 font-robotoC"
+              href="https://www.linkedin.com/posts/mjb2012_resume-activity-7038560178153086976-gxwi?utm_source=share&utm_medium=member_desktop"
+            >
+              Resume <BsFillPersonLinesFill size={32} />
             </a>
           </li>
         </ul>
