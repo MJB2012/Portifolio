@@ -6,15 +6,15 @@ export function Home() {
     <div name="home" className="bg-black w-full h-screen">
       <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-white text-xl mt-12">Hello ! My name is</p>
-        <h1 className="text-4xl sm:text-4xl text-white font-semibold mt-8">
+        <h1 className="text-4xl sm:text-4xl text-white font-semibold">
           Matheus João Barbosa
         </h1>
         <h2 className="text-white text-5xl font-bold">
-          I'm a Front-End Developer
+          I'm a Web Developer
         </h2>
         <p className="text-white text-2xl font-light my-1 py-4 max-w-[700px]">
-          After years working in the food industry, today I seek new challenges.
-          I am looking for an opportunity in Web-Development. I'm focused on
+          After years working in the food industry, today I am seeking new challenges.
+          I am looking for an opportunity as an web developer. I'm focused on
           building beautiful and responsive websites with great accessibility
           and user experience.
         </p>

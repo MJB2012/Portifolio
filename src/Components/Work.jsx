@@ -1,9 +1,9 @@
 import DTmoney from "../assets/dtmoney1.png";
 import TaskTimer from "../assets/pomodoroTimer.png";
-import { FaGithub } from "react-icons/fa";
+
 export function Work() {
   return (
-    <div name="work" className="w-full md:h-screen bg-black text-white pb-25">
+    <div name="work" className="w-full md:h-screen bg-black text-white pt-20">
       <div className="max-w-[62.5rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-white border-white">

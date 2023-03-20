@@ -5,7 +5,7 @@ import Github from "../assets/github.png";
 
 export function Contact() {
   return (
-    <div name="skills" className="w-full h-screen bg-black">
+    <div name="skills" className="w-full h-screen bg-black pt-40">
       <div className="max-w-[62.5rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-white text-white">
@@ -17,7 +17,7 @@ export function Contact() {
         <div className="w-full grid grid-cols-2 sm:grid-cols4 gap 4 text-center py-8">
           <a href="https://www.linkedin.com/in/mjb2012/" target="_blank">
             <div className="shadow-md  hover:scale-110 duration-500">
-              <img className="w-28 mx-auto" src={LinkedIn} alt="HTML icon" />
+              <img className="w-[7rem] mx-auto" src={LinkedIn} alt="HTML icon" />
               <p className="text-white my-4">LinkedIn</p>
             </div>
           </a>
@@ -42,7 +42,7 @@ export function Contact() {
           </a>
           <a href="https://github.com/MJB2012">
             <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500" target="_blank">
-              <img className="w-[6rem] mx-auto" src={Github} alt="github icon" />
+              <img className="w-[7rem] mx-auto" src={Github} alt="github icon" />
               <p className="text-white my-4"> Github</p>
             </div>
           </a>
