@@ -3,7 +3,7 @@ import TaskTimer from "../assets/pomodoroTimer.png";
 
 export function Work() {
   return (
-    <div name="work" className="w-full md:h-screen bg-black text-white pt-20">
+    <div name="work" className="w-full md:h-screen bg-black text-white pt-36 ">
       <div className="max-w-[62.5rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-white border-white">
@@ -14,8 +14,9 @@ export function Work() {
             <a
               className="font-bold hover:text-2xl hover:scale-110 duration-500"
               href="https://github.com/MJB2012"
-              
-            > Github
+            >
+              {" "}
+              Github
             </a>
           </p>
         </div>
@@ -35,7 +36,7 @@ export function Work() {
                 React Js Finance App
               </span>
               <div className="pt-14 text-center">
-                <a href="">
+                <a href="https://github.com/MJB2012">
                   <button className=" sm:px-4 sm:py-4 font-sans text-xl font-bold items-center text-center rounded-lg px-3 py-3 m-3 transition ease-in-out delay-150 bg-slate-700 hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300 text-white ">
                     Github
                   </button>

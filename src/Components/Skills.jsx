@@ -6,6 +6,7 @@ import Github from "../assets/github.png";
 import TypeScript from "../assets/typescript.png";
 import Tailwind from "../assets/tailwind.png";
 import Styled from "../assets/styled-components.svg/";
+import Bootstrap from "../assets/bootstrap.png";
 
 export function Skills() {
   return (
@@ -54,8 +55,20 @@ export function Skills() {
             <p className="text-white my-4">Tailwind CSS</p>
           </div>
           <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Styled} alt="styled components icon" />
+            <img
+              className="w-20 mx-auto"
+              src={Styled}
+              alt="styled components icon"
+            />
             <p className="text-white my-4">Styled Components</p>
+          </div>
+          <div className="shadow-md shadow-[gray-300] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto"
+              src={Bootstrap}
+              alt="bootstrap icon"
+            />
+            <p className="text-white my-4">Bootstrap</p>
           </div>
         </div>
       </div>

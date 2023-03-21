@@ -19,19 +19,23 @@ export function About() {
           </div>
 
           <div>
-            <p>
+            <p className="pb-3">
               I've started out on this journey a year and a half ago to
               challenge myself and prove that I can be a valuable asset to any
               company that is willing to give me a chance. I am very passionate
               about my work and I'm always giving my best to become a better
-              developer. You can check out my resume right here: <a
+              developer. You can check out my resume right here:{" "}
+              <a
                 href="https://www.linkedin.com/posts/mjb2012_resume-activity-7038560178153086976-gxwi?utm_source=share&utm_medium=member_desktop"
                 target="_blank"
-                className="pt-6"
               >
-             
-                <img src={Resume} alt="resume" className="w-[2rem] bg-white hover:w-[3rem] hover:scale-110 duration-500" />
-
+                <div className="pt-2">
+                  <img
+                    src={Resume}
+                    alt="resume"
+                    className="w-[2rem] bg-white hover:w-[3rem] hover:scale-90 duration-500"
+                  />
+                </div>
               </a>
             </p>
           </div>
